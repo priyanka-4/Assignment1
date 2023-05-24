@@ -1,0 +1,275 @@
+body{
+    margin: 0;
+}
+.navshadow{
+   
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0px 0px 4px 0px grey;
+}
+.nav{
+    align-content: center;
+  position: relative;
+  min-height: 80px;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;   
+ }
+ .col-md-12{
+    display: flex;
+    flex: 0 0 100%;
+    max-width: 100%;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+ }
+ .row{
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0;
+   margin-left:0 ;
+
+ }
+ .logo{
+    display: flex;
+    justify-content: center;
+margin-left: 50px;
+margin-top: 30px;
+ }
+ img{
+    width: 80px;
+    height: 80px;
+ }
+ .name img{
+    width: 120px;
+ }
+ .col-sm-6{
+    margin: 0;
+    padding-left: 30%;
+    display: flex;
+    position: relative;
+    width: 80%;  
+ }
+ ul{
+    
+    margin-right: 30px;
+    display: inline-flex;
+    list-style-type: none;
+ }
+ ul li{
+
+    margin-top: 20px;
+    display: block;
+    padding: 10px;
+    list-style: none;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+   
+ }
+ ul li a{
+    color: black;
+    padding: 10px;
+ display: block;
+ text-decoration: none;
+ }
+ ul li a:hover{
+    background-color:orangered;
+    color:black;
+    border-radius: 20px;
+ }
+ .col-sm-3{
+margin-right: 60px;
+    padding:30px 20px 30px 10px ;
+    
+ }
+ .talk{
+    font-size: large;
+   text-align: center;
+   font-weight: bold;
+    width: 120px;
+    height: 50px;
+    border: 2px solid blue;
+    background-color: white;
+    border-radius: 4px;
+ }
+ .talk:hover{
+    background-color:dodgerblue;
+    color: white;
+    border: 2px gray;
+ }
+
+.row1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+   margin-left:20px ;
+
+ }
+.collab{
+  padding: 150px 30px 30px 30px;
+   
+}
+.lets{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bold;
+   padding: 10px;
+ 
+}
+.col-md-6{
+    width: 50%;
+    
+}
+.description{
+    padding: 0px 30px 30px 10px;
+    font-family:serif;
+}
+.heading{
+    font-size:xx-large;
+}
+.info{
+    font-size:x-large;
+    padding-bottom: 40px;
+}
+
+.last a {
+
+    color: black;
+    text-decoration: none;
+    font-size:x-large;
+    font-weight: bold;
+    padding: 20px;
+    display: flex;
+}
+#arrow{
+    padding: 25px;
+    padding-left:10px ;
+    width: 50px;
+    height: 25px;
+}
+
+.col-md-7{
+    width: 50% ;
+}
+#first{
+    width: 80%;
+    height: 100%;
+}
+
+.row2{
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+   margin-left:20px ;
+
+ }
+ 
+.row3{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+   margin-left:20px ;
+
+ }
+.row4{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 20px;
+   margin-left:20px ;
+ }
+ .row5{
+    margin-right: 20px;
+    margin-left:20px ;
+    padding:100px 0 60px 20px  ;
+    display: flex;
+    flex-wrap: wrap;  
+ }
+ #get{
+    padding:20px 40px 20px 40px;
+    font-size:medium;
+    background-color: black;
+ }
+ #get{
+    text-decoration: none;
+    font-size: medium;
+    color: white;
+ }
+ #get:hover{
+    background-color: white;
+    color: black;
+ }
+nav{
+    background-color: aqua;
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid gainsboro;
+    /* z-index: 9; */
+  }
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: black;
+    
+  }
+  .form-container h1{
+    color:orangered;
+  }
+  .form-container input[type=text] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    color: orangered;
+    
+  }
+  .form-container  label{
+    color: white;
+  }
+  .form-container input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  .form-container .btn {
+    position: relative;
+    background-color:orangered;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 40%;
+    margin-bottom:10px;
+    opacity: 1;
+  }
+  
+  .form-container .cancel {
+    background-color: gainsboro;
+    width: 40%;
+    padding: 16px 20px;
+    color: black;
+  }
+  
+ /* ============CSS For small screen================= */
+
+ /* @media screen and (max-width: 600px) {
+    .navshadow, .nav {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller 
+    }
+}
+    */
